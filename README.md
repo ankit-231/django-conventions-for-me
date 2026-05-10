@@ -63,3 +63,29 @@ Note: even if you have pagination, send properties like below inside the `data` 
         "total_pages": 2},
 "message": "Success"}
 ```
+
+## Todo
+
+- [ ] Write about urls
+- [ ] Write about api versioning
+- [ ] Write about BaseAPIView, AuthenticatedAPIView, PublicAPIView. Write about extra_permissions class variable in BaseAPIView
+- [ ] Write about BaseModel
+- [ ] Write about User model
+- [ ] Write about Serializer and how to separate them. Write about input_serializer and output_serializer
+- [ ] Write about pagination
+- [ ] Write about throttling (haven't used it till now, write it and use it in your projects)
+- [ ] Write about keeping all apps inside `apps` folder, and how to manage it
+- [ ] Write about logging
+- [ ] Write about `.env`, `.env.example` and `.env.prod`
+- [ ] Write about separating settings files
+- [ ] Write about how migration files should be committed
+- [ ] Write about using python poetry
+- [ ] Write about requirements file separation
+- [ ] Write about setup.sh and deploy.sh
+- [ ] Write about having backend and frontend in same repo
+- [ ] Write about email sending architecture
+- [ ] Write about using celery
+- [ ] Write about django-extensions
+- [ ] Write about creating service files and using them for central validation (using serializers), any extra business logic and creation/update. And use it EVERYWHERE, in views, in django management commands, tests, etc.
+- [ ] Write about testing using factory_boy and faker
+- [ ] Write about sending image link using environment variables and a function to append the domain. It is useful when image needs to be stored in a different domain than the current domain.
